@@ -1,0 +1,16 @@
+{
+  "name": "pravo-tech-test-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Zarpkor/pravo-tech-test-task.git",
+  "author": "Korobeynikov Artyom",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.18"
+  },
+  "scripts": {
+    "test:run": "npx playwright test",
+    "test:open": "npx playwright test --ui"
+  }
+}
