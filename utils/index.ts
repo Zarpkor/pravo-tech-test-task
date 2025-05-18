@@ -1,0 +1,1 @@
+export { generateAffairName } from './actions';
